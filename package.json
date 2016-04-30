@@ -1,0 +1,29 @@
+{
+    "name": "sgfgrove-ff123",
+    "author": "anazawa <anazawa@cpan.org>",
+    "description": "Adds FF[1]-FF[3] properties to sgfgrove",
+    "version": "1.0.6",
+    "homepage": "https://github.com/anazawa/sgfgrove-ff123",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/anazawa/sgfgrove-ff123.git"
+    },
+    "main": "lib/sgfgrove/ff123.js",
+    "dependencies": {
+        "sgfgrove": "anazawa/sgfgrove"
+    },
+    "devDependencies": {
+        "tape": "^3.0.3",
+        "jshint": "^2.5.8"
+    },
+    "scripts": {
+        "lint": "jshint lib/sgfgrove/ff123.js test/*.js",
+        "pretest": "npm run lint",
+        "test": "tape 'test/test.*.js'"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": "*"
+    }
+}
+
