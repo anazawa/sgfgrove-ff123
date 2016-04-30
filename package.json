@@ -2,7 +2,7 @@
     "name": "sgfgrove-ff123",
     "author": "anazawa <anazawa@cpan.org>",
     "description": "Adds FF[1]-FF[3] properties to sgfgrove",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "homepage": "https://github.com/anazawa/sgfgrove-ff123",
     "repository": {
         "type": "git",
